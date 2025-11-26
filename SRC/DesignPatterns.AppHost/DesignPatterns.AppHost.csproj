@@ -15,7 +15,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SRC\DesignPatterns.Presentation\DesignPatterns.Presentation.csproj" />
+    <ProjectReference Include="..\DesignPatterns.Presentation\DesignPatterns.Presentation.csproj" />
   </ItemGroup>
+
+
 
 </Project>
