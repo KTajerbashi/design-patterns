@@ -1,5 +1,5 @@
-using DesignPatterns.Creational.PatternAbstractFactory;
-using DesignPatterns.Creational.PatternFactoryMethod;
+using DesignPatterns.Creational.AbstractFactory;
+using DesignPatterns.Creational.FactoryMethod;
 using DesignPatterns.Presentation.Components;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,9 +12,9 @@ builder.Services.AddRazorComponents()
 
 //  1 Singletone
 //  2
-builder.Services.AddPatternFactoryMethod();
+builder.Services.AddFactoryMethod();
 //  3
-builder.Services.AddPatternAbstractFactory();
+builder.Services.AddAbstractFactory();
 
 var app = builder.Build();
 

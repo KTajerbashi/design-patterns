@@ -1,6 +1,6 @@
-﻿using DesignPatterns.Creational.PatternAbstractFactory.Interfaces;
+﻿using DesignPatterns.Creational.AbstractFactory.Interfaces;
 
-namespace DesignPatterns.Creational.PatternAbstractFactory.Light;
+namespace DesignPatterns.Creational.AbstractFactory.Light;
 
 public class LightUIFactory : IUIFactory
 {

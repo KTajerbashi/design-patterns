@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Creational.PatternPrototype;
+﻿namespace DesignPatterns.Creational.Prototype;
 
 public interface IPrototype<T>
 {

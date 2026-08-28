@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Creational.PatternBuilder;
+﻿namespace DesignPatterns.Creational.Builder;
 
 public class Pizza
 {

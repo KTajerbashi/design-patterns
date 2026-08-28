@@ -1,10 +1,10 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 
-namespace DesignPatterns.Creational.PatternFactoryMethod;
+namespace DesignPatterns.Creational.FactoryMethod;
 
 public static class DependencyInjection
 {
-    public static IServiceCollection AddPatternFactoryMethod(this IServiceCollection services)
+    public static IServiceCollection AddFactoryMethod(this IServiceCollection services)
     {
         // Register message factories
         services.AddTransient<EmailMessageFactory>();

@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Creational.PatternFactoryMethod;
+﻿namespace DesignPatterns.Creational.FactoryMethod;
 
 public interface IMessage
 {

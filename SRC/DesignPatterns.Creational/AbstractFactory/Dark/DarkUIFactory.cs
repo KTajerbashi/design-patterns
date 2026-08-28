@@ -1,6 +1,6 @@
-﻿using DesignPatterns.Creational.PatternAbstractFactory.Interfaces;
+﻿using DesignPatterns.Creational.AbstractFactory.Interfaces;
 
-namespace DesignPatterns.Creational.PatternAbstractFactory.Dark;
+namespace DesignPatterns.Creational.AbstractFactory.Dark;
 
 public class DarkUIFactory : IUIFactory
 {

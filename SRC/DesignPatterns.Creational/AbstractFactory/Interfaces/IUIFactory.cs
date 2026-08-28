@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Creational.PatternAbstractFactory.Interfaces;
+﻿namespace DesignPatterns.Creational.AbstractFactory.Interfaces;
 
 public interface IUIFactory
 {
