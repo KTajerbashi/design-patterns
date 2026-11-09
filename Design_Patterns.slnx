@@ -61,7 +61,9 @@
     <Project Path="Src/Creational/Builder/Builder.csproj" Id="f3604705-74b9-419d-83ae-2e0ce424b621" />
     <Project Path="Src/Creational/FactoryMethod/FactoryMethod.csproj" Id="15dec6e0-b624-4f4a-82b2-8317ddf97963" />
     <Project Path="Src/Creational/Prototype/Prototype.csproj" Id="d0e43aaf-6a70-48fd-9881-330d4b81af77" />
-    <Project Path="Src/Creational/Singleton/Singleton.csproj" Id="cfd91fb3-23ac-49f9-8f58-33dea6d209c4" />
+  </Folder>
+  <Folder Name="/Src/Creational/Singleton/">
+    <Project Path="Src/Creational/Singleton/Singleton/Singleton.csproj" />
   </Folder>
   <Folder Name="/Src/DistributedSystems/" />
   <Folder Name="/Src/DomainDrivenDesign/" />
