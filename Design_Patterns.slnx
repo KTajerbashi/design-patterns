@@ -1,23 +1,48 @@
 <Solution>
   <Folder Name="/.github/">
+    <File Path="dependabot.yml" />
     <File Path="PULL_REQUEST_TEMPLATE.md" />
   </Folder>
+  <Folder Name="/.github/CODEOWNERS/" />
   <Folder Name="/.github/ISSUE_TEMPLATE/" />
   <Folder Name="/.github/workflows/">
     <File Path="ci.yml" />
+    <File Path="code-quality.yml" />
+    <File Path="codeql.yml" />
   </Folder>
   <Folder Name="/Docs/">
+    <File Path="architecture-principles.md" />
+    <File Path="coding-standards.md" />
     <File Path="design-principles.md" />
     <File Path="getting-started.md" />
+    <File Path="glossary.md" />
+    <File Path="grasp-principles.md" />
     <File Path="pattern-selection-guide.md" />
     <File Path="solid-principles.md" />
+    <File Path="testing-strategy.md" />
+  </Folder>
+  <Folder Name="/Docs/Architecture/">
+    <File Path="application-architecture.md" />
+    <File Path="repository-structure.md" />
+  </Folder>
+  <Folder Name="/Docs/Catalog/">
+    <File Path="anti-patterns.md" />
+    <File Path="architectural-patterns.md" />
+    <File Path="design-patterns.md" />
+    <File Path="distributed-patterns.md" />
+    <File Path="enterprise-patterns.md" />
   </Folder>
   <Folder Name="/Solution Items/">
     <File Path=".editorconfig" />
+    <File Path=".gitattributes" />
     <File Path="CHANGELOG.md" />
     <File Path="CONTRIBUTING.md" />
+    <File Path="global.json" />
+    <File Path="SECURITY.md" />
+    <File Path="SUPPORT.md" />
   </Folder>
   <Folder Name="/Src/" />
+  <Folder Name="/Src/Architectural/" />
   <Folder Name="/Src/Behavioral/">
     <Project Path="Src/Behavioral/ChainOfResponsibility/ChainOfResponsibility.csproj" Id="b5271eb7-bd55-4d41-8121-f9aee34d28be" />
     <Project Path="Src/Behavioral/Command/Command.csproj" Id="eb9639cd-7cb7-4029-9a64-c4580e75b566" />
@@ -30,12 +55,21 @@
     <Project Path="Src/Behavioral/TemplateMethod/TemplateMethod.csproj" Id="1ed95efc-3a56-46d1-9343-29de6ac21300" />
     <Project Path="Src/Behavioral/Visitor/Visitor.csproj" />
   </Folder>
+  <Folder Name="/Src/Concurrency/" />
   <Folder Name="/Src/Creational/">
     <Project Path="Src/Creational/AbstractFactory/AbstractFactory.csproj" Id="bc260dc1-cb4b-4838-8bc6-030d88f3544e" />
     <Project Path="Src/Creational/Builder/Builder.csproj" Id="f3604705-74b9-419d-83ae-2e0ce424b621" />
     <Project Path="Src/Creational/FactoryMethod/FactoryMethod.csproj" Id="15dec6e0-b624-4f4a-82b2-8317ddf97963" />
     <Project Path="Src/Creational/Prototype/Prototype.csproj" Id="d0e43aaf-6a70-48fd-9881-330d4b81af77" />
     <Project Path="Src/Creational/Singleton/Singleton.csproj" Id="cfd91fb3-23ac-49f9-8f58-33dea6d209c4" />
+  </Folder>
+  <Folder Name="/Src/DistributedSystems/" />
+  <Folder Name="/Src/DomainDrivenDesign/" />
+  <Folder Name="/Src/Enterprise/" />
+  <Folder Name="/Src/Integration/" />
+  <Folder Name="/Src/Security/" />
+  <Folder Name="/Src/Shared/">
+    <Project Path="Src/Shared/DesignPatterns.Shared/DesignPatterns.Shared.csproj" Id="ceee8c2f-b27e-43a6-bdad-98624235f358" />
   </Folder>
   <Folder Name="/Src/Structural/">
     <Project Path="Src/Structural/Adapter/Adapter.csproj" Id="5190410c-9a37-4391-8c8e-3b9505a850f8" />
@@ -46,6 +80,7 @@
     <Project Path="Src/Structural/Flyweight/Flyweight.csproj" Id="cb51072e-9fef-4148-9aad-e77f3eeec880" />
     <Project Path="Src/Structural/Proxy/Proxy.csproj" Id="81b4c998-fc97-479a-bfd5-9d56b436f83f" />
   </Folder>
+  <Folder Name="/Src/Testing/" />
   <Folder Name="/Tests/" />
   <Folder Name="/Tests/Behavioral.Tests/" />
   <Folder Name="/Tests/Creational.Tests/" />
